@@ -21,4 +21,6 @@ Further documentation can be found at <https://hexdocs.pm/aoc2024>.
 ```sh
 gleam run   # Run the project
 gleam test  # Run the tests
+# https://github.com/air-verse/air
+air --build.bin "gleam test" -build.include_ext "gleam"
 ```
